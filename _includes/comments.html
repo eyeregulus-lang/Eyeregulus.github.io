@@ -1,0 +1,5 @@
+<div class="page__comments">
+  {% if site.comments.provider == "giscus" %}
+    {% include /comments-providers/giscus.html %}
+  {% endif %}
+</div>
